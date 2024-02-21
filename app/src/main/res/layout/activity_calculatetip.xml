@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+
+    tools:context=".calculatetip">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate tip"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"/>
+    <EditText
+        android:id="@+id/countryEditText"
+        android:layout_width="370dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="30dp"
+        android:hint="Enter country"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/billAmountEditText"
+        android:layout_width="370dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="30dp"
+        android:hint="Bill Amount"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="347dp"
+        android:layout_height="102dp"
+        android:text="Button"
+        android:backgroundTint="@color/teal_200"/>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="390dp"
+        android:layout_height="231dp"
+        android:inputType="number"
+        android:textSize="34sp" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "851229047947",
+    "project_id": "tippy-92365",
+    "storage_bucket": "tippy-92365.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851229047947:android:4cfda3433196ef625f288e",
+        "android_client_info": {
+          "package_name": "com.example.tippify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBysC3Q6EmU-vxniZVoASMpx7mORx9xzfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
